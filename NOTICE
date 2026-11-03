@@ -1,0 +1,9 @@
+wav2vec 2.0 Large (LV-60k), fine-tuned on 960 h of LibriSpeech: ONNX conversion
+
+The model weights are the wav2vec 2.0 Large LV-60k + 960 h LibriSpeech CTC checkpoint published by
+Facebook AI Research in fairseq (https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec)
+under the MIT License, Copyright (c) Facebook, Inc. and its affiliates, and redistributed by torchaudio
+as the bundle torchaudio.pipelines.WAV2VEC2_ASR_LARGE_LV60K_960H under the same licence.
+The full licence text is in LICENSE.
+
+The ONNX conversion (the export to ONNX and the 4-bit weight compression described in README.md) is ours.
